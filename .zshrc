@@ -49,15 +49,15 @@ setopt inc_append_history
 
 # エイリアスの設定
 
-alias gf=' git fetch'
-alias gcm=' git commit -m'
-alias gs=' git status'
-alias gb=' git branch'
-alias gc=' git checkout'
-alias gpm=' git pull origin main'
-alias sleepon=' sudo pmset -a disablesleep 0'
-alias sleepoff=' sudo pmset -a disablesleep 1'
-alias gp=' git pull'
+alias gf='git fetch'
+alias gcm='git commit -m'
+alias gs='git status'
+alias gb='git branch'
+alias gc='git checkout'
+alias gpm='git pull origin main'
+alias sleepon='sudo pmset -a disablesleep 0'
+alias sleepoff='sudo pmset -a disablesleep 1'
+alias gp='git pull'
 
 ########################################
 ########################################
