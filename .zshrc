@@ -1,10 +1,5 @@
 # 環境変数
-
-# volta
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
-
-# java, Bun, platform-tools(Android SDK), RANCHER DESKTOP は必要になったタイミングで設定する
+# volta, java, Bun, platform-tools(Android SDK), RANCHER DESKTOP は必要になったタイミングで設定する
 
 ########################################
 ########################################
