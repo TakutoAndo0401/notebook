@@ -22,3 +22,10 @@
 - Homebrew install
 - Git install
 - .zshrc 設定
+
+## Google Chrome 拡張機能
+- JSON Formatter
+- OneLogin for Google Chrome
+- Sheets Row Highlighter
+- uBlacklist
+- Wappalyzer - Technology profiler
