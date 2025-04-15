@@ -17,6 +17,7 @@
 - Clipy
 - Raycast
 - DeepL
+- RunCat
 
 ## Terminal
 - Homebrew install
