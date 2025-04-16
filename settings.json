@@ -1,0 +1,161 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333333",
+    "statusBar.noFolderBackground": "#212121",
+    "statusBar.debuggingBackground": "#263238"
+  },
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.accessibilitySupport": "off",
+  "editor.minimap.enabled": false,
+  "git.enableSmartCommit": true,
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning",
+    "info"
+  ],
+  "workbench.editor.enablePreview": false,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.tabSize": 2,
+  "[javascript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+  "editor.formatOnSave": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.saturation": 1,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.codeLens.enabled": false,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "editor.inlineSuggest.enabled": true,
+  "errorLens.excludeBySource": [
+    "eslint(no-control-regex)"
+  ],
+  "files.saveConflictResolution": "overwriteFileOnDisk",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "javascript.preferGoToSourceDefinition": true,
+  "typescript.preferGoToSourceDefinition": true,
+  "security.promptForLocalFileProtocolHandling": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "accessibility.signals.lineHasError": {
+    "sound": "off",
+    "announcement": "off"
+  },
+  "accessibility.signals.lineHasFoldedArea": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasBreakpoint": {
+    "sound": "off"
+  },
+  "accessibility.signals.lineHasInlineSuggestion": {
+    "sound": "off"
+  },
+  "editor.fontSize": 12.5,
+  "importCost.typescriptExtensions": [
+    "\\.tsx?$"
+  ],
+  "accessibility.signals.terminalCommandFailed": {
+    "sound": "off",
+    "announcement": "off"
+  },
+  "accessibility.signals.voiceRecordingStarted": {
+    "sound": "off"
+  },
+  "accessibility.signals.positionHasError": {
+    "sound": "off",
+    "announcement": "off"
+  },
+  "editor.renderWhitespace": "boundary",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "gitlens.launchpad.indicator.enabled": true,
+  "explorer.confirmDragAndDrop": true,
+  "cSpell.overviewRulerColor": "blue",
+  "cSpell.textDecorationColorFlagged": "blue",
+  "cSpell.textDecorationColor": "blue",
+  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+  "github.copilot.chat.copilotDebugCommand.enabled": true,
+  "github.copilot.chat.startDebugging.enabled": true,
+  "github.copilot.chat.edits.suggestRelatedFilesFromGitHistory": true,
+  "github.copilot.chat.setupTests.enabled": true,
+  "github.copilot.chat.followUps": "always",
+  "github.copilot.chat.localeOverride": "ja",
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "github.copilot.chat.edits.temporalContext.enabled": true,
+  "github.copilot.chat.generateTests.codeLens": true,
+  "github.copilot.chat.languageContext.typescript.enabled": true,
+  "github.copilot.chat.search.semanticTextResults": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.chat.codesearch.enabled": true,
+  // コード生成の設定
+  "github.copilot.chat.codeGeneration.instructions": [
+    {
+      "text": "フロンエンドのエキスパートとして振る舞います。",
+    },
+    {
+      "text": "必ず日本語で会話します。",
+    },
+    {
+      "text": "常に日本語で分かりやすい言葉を選び、丁寧な表現を心がけます。"
+    },
+    {
+      "text": "初心者にも分かりやすく、できるだけ詳しく説明します。"
+    },
+  ],
+  // テストコード生成の設定
+  "github.copilot.chat.testGeneration.instructions": [
+    {
+      "text": "日本語のテストコードを生成します。",
+      "language": "ja"
+    }
+  ],
+  // コードレビューの設定
+  "github.copilot.chat.reviewSelection.instructions": [
+    {
+      "text": ""
+    },
+  ],
+  //コミットメッセージ生成の設定
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    {
+      "text": "コミットメッセージは短く、要点を押さえたものにしてください。"
+    },
+    {
+      "text": "コミットメッセージは日本語で書いてください。"
+    },
+    {
+      "text": "必ず先頭にprefixをつけてください。(例: fix: バグ修正)"
+    },
+  ],
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+  "github.copilot.chat.agent.thinkingTool": true,
+  "github.copilot.chat.scopeSelection": true,
+  // 以下はプロジェクトごとに設定すること
+  // "eslint.format.enable": true,
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": "explicit",
+  //   "source.fixAll.stylelint": "explicit"
+  // },
+  // "stylelint.packageManager": "yarn",
+  // "stylelint.enable": true,
+  // "stylelint.validate": [
+  //   "css",
+  //   "scss"
+  // ],
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "scss.showErrors": true,
+}
