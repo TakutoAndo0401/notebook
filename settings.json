@@ -7,16 +7,12 @@
     "statusBar.debuggingBackground": "#263238"
   },
   "workbench.editor.enablePreview": false,
-
-  // Editor関連の設定
-  "editor.fontSize": 11.5,
   "editor.minimap.enabled": false,
   "editor.accessibilitySupport": "off",
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
   "editor.renderWhitespace": "boundary",
   "editor.inlineSuggest.enabled": true,
-  "editor.inlineSuggest.edits.showCollapsed": true,
 
   // JavaScript/TypeScript関連の設定
   "[javascript]": {
@@ -73,61 +69,26 @@
     "markdown": false,
     "scminput": false
   },
-  "github.copilot.chat.codeGeneration.useInstructionFiles": true,
-  "github.copilot.chat.copilotDebugCommand.enabled": true,
-  "github.copilot.chat.startDebugging.enabled": true,
-  "github.copilot.chat.edits.suggestRelatedFilesFromGitHistory": true,
-  "github.copilot.chat.setupTests.enabled": true,
-  "github.copilot.chat.followUps": "always",
-  "github.copilot.chat.localeOverride": "ja",
-  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "inlineChat.enableV2": true,
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.chat.scopeSelection": true,
+  "github.copilot.chat.agent.thinkingTool": true,
+  "github.copilot.chat.search.keywordSuggestions": true,
   "github.copilot.chat.edits.temporalContext.enabled": true,
   "github.copilot.chat.generateTests.codeLens": true,
-  "github.copilot.chat.languageContext.typescript.enabled": true,
-  "github.copilot.chat.search.semanticTextResults": true,
-  "github.copilot.nextEditSuggestions.enabled": true,
-  "github.copilot.chat.codesearch.enabled": true,
   "github.copilot.chat.languageContext.fix.typescript.enabled": true,
   "github.copilot.chat.languageContext.inline.typescript.enabled": true,
-  "github.copilot.chat.agent.thinkingTool": true,
-  "github.copilot.chat.scopeSelection": true,
-  "github.copilot.chat.codeGeneration.instructions": [
-    {
-      "text": "フロンエンドのエキスパートとして振る舞います。"
-    },
-    {
-      "text": "必ず日本語で会話します。"
-    },
-    {
-      "text": "常に日本語で分かりやすい言葉を選び、丁寧な表現を心がけます。"
-    },
-    {
-      "text": "初心者にも分かりやすく、できるだけ詳しく説明します。"
-    }
-  ],
-  "github.copilot.chat.testGeneration.instructions": [
-    {
-      "text": "日本語のテストコードを生成します。",
-      "language": "ja"
-    }
-  ],
-  "github.copilot.chat.reviewSelection.instructions": [
-    {
-      "text": ""
-    }
-  ],
+  "github.copilot.chat.languageContext.typescript.enabled": true,
   "github.copilot.chat.commitMessageGeneration.instructions": [
-    {
-      "text": "コミットメッセージは短く、要点を押さえたものにしてください。"
-    },
     {
       "text": "コミットメッセージは日本語で書いてください。"
     },
     {
-      "text": "必ず先頭にprefixをつけてください。(例: fix: バグ修正)"
+      "text": "必ず先頭にprefixをつけてください。"
     }
   ],
-
+  
   // その他の設定
   "errorLens.enabledDiagnosticLevels": [
     "error",
@@ -148,19 +109,7 @@
   "cSpell.textDecorationColor": "blue",
   "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.saturation": 1,
-
-  // プロジェクトごとの設定 (コメントアウト)
-  // "eslint.format.enable": true,
-  // "editor.codeActionsOnSave": {
-  //   "source.fixAll.eslint": "explicit",
-  //   "source.fixAll.stylelint": "explicit"
-  // },
-  // "stylelint.packageManager": "yarn",
-  // "stylelint.enable": true,
-  // "stylelint.validate": [
-  //   "css",
-  //   "scss"
-  // ],
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  // "scss.showErrors": true,
+  "editor.fontSize": 13,
+  "security.promptForLocalFileProtocolHandling": false,
+  "htmltagwrap.tag": "div",
 }
