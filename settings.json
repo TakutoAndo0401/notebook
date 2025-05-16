@@ -69,7 +69,6 @@
     "markdown": false,
     "scminput": false
   },
-  "github.copilot.nextEditSuggestions.enabled": true,
   "inlineChat.enableV2": true,
   "github.copilot.chat.codesearch.enabled": true,
   "github.copilot.chat.scopeSelection": true,
@@ -85,7 +84,7 @@
       "text": "コミットメッセージは日本語で書いてください。"
     },
     {
-      "text": "必ず先頭にprefixをつけてください。"
+      "text": "コミットメッセージは Conventional Commits(URL: https://www.conventionalcommits.org/en/v1.0.0/) に従ってください"
     }
   ],
   
@@ -109,7 +108,8 @@
   "cSpell.textDecorationColor": "blue",
   "material-icon-theme.activeIconPack": "react",
   "material-icon-theme.saturation": 1,
-  "editor.fontSize": 13,
+  "editor.fontSize": 13.5,
   "security.promptForLocalFileProtocolHandling": false,
   "htmltagwrap.tag": "div",
+  "extensions.ignoreRecommendations": true,
 }
